@@ -8,13 +8,13 @@
 
     <ImageView
         android:layout_marginTop="100dp"
-        android:src="@drawable/icon_app"
+        android:src="@drawable/ic_app"
         android:layout_width="match_parent"
         android:layout_height="200dp"/>
 
     <Button
         android:id="@+id/btnHome"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/button_bg"
         android:layout_marginHorizontal="32dp"
         android:text="trang chủ kubet"
@@ -27,6 +27,15 @@
         android:background="@drawable/button_bg"
         android:layout_marginHorizontal="32dp"
         android:text="Hỗ trợ khách hàng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="32dp"
+        android:text="Đăng ký tài khoản"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
